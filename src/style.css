@@ -3,3 +3,8 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.limitation{
+    margin-inline: auto;
+    width: min(2000px , 100%);
+}
