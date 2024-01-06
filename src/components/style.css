@@ -1,53 +1,4 @@
-
-
-<template>
-    
-    <section id="header">
-        <div>
-            <ul id="navbar">
-                <li><a class="" href="">New Arrivals</a></li>
-                <li><a href="">Events</a></li>
-            </ul>
-        </div>
-
-        <img :src="('@/assets/Logo/Library.png')" alt="Image">
-
-        <div>
-            <ul id="navbar">
-                <li><a class="active" href="http://127.0.0.1:5173">Home</a></li>
-                <li><a href="http://127.0.0.1:5173/shop">Book</a></li>
-                <li><a href="http://127.0.0.1:5173/about">About Us</a></li>
-                <li><a href="http://127.0.0.1:5173/contact">Contact</a></li>
-                <li id="lg-bag" style="width: auto;"><a href=""><i class="fa fa-user-circle" aria-hidden="true"></i></a></li>
-                <a href="#" id="close"><i class="far fa-times"></i></a>
-            </ul>
-            
-        </div>
-        <div id="mobile">
-            <a href=""><i class="fa fa-user-circle" aria-hidden="true"></i></a>             
-        </div>
-    </section>
-
-    <section id="hero">
-        <br>
-        <button style="background-color: white;  width: 560px; height:60px; 
-        top: 5%;
-        left: 35%;
-        right:65%;
-        position:absolute;
-        text-align:left;
-        color:#3A686E;
-        font-size:20px;">Search any book...</button>
-        <!-- <h2>Super value deals</h2>
-        <h1>On all products</h1>
-        <p>Save more with coupons & up to 70% off!</p>
-        <button>Shop Now</button> -->
-    </section>
-</template>
-
-<style>
 @import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
 * {
   margin: 0;
   padding: 0;
@@ -184,7 +135,7 @@ body {
 
 /* Home Page */
 #hero{
-    background-image: url("src/assets/Img/cover.jpg");
+    background-image: url("Img/cover.jpg");
     height: 80vh;
     width: 100%;
     background-size: cover;
@@ -1091,5 +1042,3 @@ footer .copyright{
 }
 
 }
-
-</style>
