@@ -10,7 +10,7 @@
             </ul>
         </div>
 
-        <img :src="('@/assets/Logo/Library.png')" alt="Image">
+        <img src="../../public/Library .png" alt="Image">
 
         <div>
             <ul id="navbar">
